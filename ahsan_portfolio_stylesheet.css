@@ -1,0 +1,1204 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background:#f4fdfd
+	url('hash_preloader.gif')
+	 no-repeat center center;	
+	 background-size: 250px 200px;
+	z-index: 99999;
+}
+
+:root
+{
+  --main-contrast-color:#fcd436;
+  --red-color-shade:#ff0627;
+}
+h2#typing_animation {
+  margin: 0.4em 0;
+  font-weight: oblique;
+  color: white;
+  font-size: 35px;
+}
+body
+{
+	overflow-x: hidden;
+}
+ /* width */
+::-webkit-scrollbar {
+  width: 7px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb{
+  background-color: red;
+  min-height: 10px;
+
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+button.navbar-toggler:focus
+{
+	outline: none;
+}
+div.main_div
+{
+	width: 100%;
+	height:590px;
+	background: rgb(28,169,191);
+    background: linear-gradient(90deg, rgba(28,169,191,1) 0%, rgba(21,136,154,1) 50%, rgba(12,90,102,1) 100%)
+}
+div.text_main_div
+{
+	position: relative;
+	top:15vw;
+	left:6vw;
+}
+div.text_main_div h1
+{
+	font-size: 50px;
+	color:white;
+	font-weight:bold;
+}
+a.cv_button
+{
+	width:190px;
+	height: 50px;
+	color:white;
+	border-radius: 50px;
+	padding:15px;
+	padding-left: 45px;
+	text-decoration: none;
+	background-color: var(--main-contrast-color);
+	border:none;
+}
+img#my_image_main
+{
+	float: right;
+	position: relative;
+	top:-202px;
+	right:50px;
+	height:662px; 
+	width:555px;
+}
+ul li.margin
+{
+	margin-left: 20px;
+}
+a#navi_brand
+{
+	font-size: 30px; 
+	font-weight: bold;
+}
+span#ahsan_dot
+{
+	color:red; 
+	font-weight: bold; 
+	font-size:30px;"
+}
+div.about
+{
+	padding: 50px;
+	padding-top:0px;
+	margin-top: -10vw;
+	width: 100%;
+}
+a#read_more
+{
+	width: 100px;
+	height: 30px;
+	border:none;
+	font-size: 12px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color:black;
+	background-color: var(--main-contrast-color);
+	border-radius:50px; 
+}
+a#read_more:hover
+{
+	color:white;
+}
+div.main_round_div
+{
+	margin-top: -12vw;
+	padding: 0px;
+	width: 100%;
+	padding-top:20px;
+	box-sizing: border-box;
+}
+
+div.round
+{
+	height: 150px;
+	width: 150px;
+	border:2px solid var(--main-contrast-color);
+	border-radius: 50%;
+}
+div.round_last
+{
+	margin-top: -90px;
+}
+div.round p
+{
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 150px;
+	text-align: center;
+}
+span#yearsof_experience
+{
+	position: relative;
+	top:-130px;
+	font-size: 12px;
+	font-weight: normal;
+}
+div.main_progress
+{
+	position: relative;
+	left:15%;
+	align-content: center;
+	width: 70%;
+	padding: 50px;
+	padding-left:60px;
+}
+div.main_progress h1
+{
+	padding: 5px;
+	padding-bottom:10px; 
+	padding-top:10px;
+}
+div.main_progress p
+{
+	font-size: 20px;
+	margin-top: 10px;
+}
+div.progress
+{
+	height: 7px;
+}
+div.images
+{
+	padding-left: 60px;
+}
+img#skill_first_image
+{
+	width: 286px;
+	height:410px;
+	z-index: 1;
+	border: 8px solid white;
+}
+img#skill_second_image
+{
+	width: 170px;
+	height:290px;
+	float:right;
+	margin-top: -20px;
+}
+div#skills_colum
+{
+	background-color:#fcd436;
+	height:500px;
+	width:85%;
+	float:right;
+	margin-top:-330px;
+	z-index: -1;"
+}
+div.services-card
+{
+	height: 300px;
+	border:none;
+}
+div#n_1:hover
+{
+	color:white;
+	background-color: var(--main-contrast-color);
+	transition: 0.5s linear;
+}
+div#n_2:hover
+{
+	color:white;
+	background-color:black;
+	transition: 0.5s linear;
+}
+div#n_3:hover
+{
+	color:white;
+	background-color: var(--red-color-shade);
+	transition: 0.5s linear;
+}
+div#portfolio_row
+{
+	margin-top: 100px;
+}
+div.portfolio_card
+{
+	border: none;
+}
+div.top_saeed_interior_card
+{
+	border: none;
+}
+div.portfolio_card img
+{
+	 width:304px;
+	 height: 148px;
+}
+img.port_big_image
+{
+	 width:474px;
+	 height: 235px;
+}
+div#clients_back
+{
+	background-image: url('lap_11.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	height: 400px;
+}
+figcaption#client_caption i
+{
+	float:left;
+	color:var(--main-contrast-color);
+}
+form label
+{
+	font-size: 20px;
+	font-family: cursive;
+}
+div.last_icons a i
+{
+	color:white;
+	font-size: 30px;
+	padding-right: 40px;
+	padding-right: 40px;
+}
+a#last_copyright_name 
+{
+	text-decoration: none;
+	color:red;
+}
+a#last_copyright_name:hover
+{
+	color:#ff0627;
+}
+/*This extra large media query*/
+@media screen (min-width: 1200px) and (min-width: 1440)
+{
+
+}
+/*This extra large media query*/
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+div.main_div
+{
+	width: 100%;
+	height:512px;
+	background: rgb(28,169,191);
+    background: linear-gradient(90deg, rgba(28,169,191,1) 0%, rgba(21,136,154,1) 50%, rgba(12,90,102,1) 100%)
+}
+div.text_main_div
+{
+	position: relative;
+	top:20vw;
+	left:6vw;
+}
+div.text_main_div h1
+{
+	font-size: 42px;
+	color:white;
+	font-weight: bold;
+}
+
+a.cv_button
+{
+	width:160px;
+	height: 40px;
+	color:white;
+	padding:10px;
+	padding-left: 30px;
+	text-decoration: none;
+	border-radius: 50px;
+	border:none;
+}
+img#my_image_main
+{
+	float: right;
+	position: relative;
+	top:-162px;
+	right:50px;
+	height:565px; 
+	width:435px;
+}
+ul li.margin
+{
+	margin-left: 20px;
+}
+h2#typing_animation {
+  margin: 0.4em 0;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+div.main_progress
+{
+	position: relative;
+	left:15%;
+	align-content: center;
+	width: 70%;
+	padding: 50px;
+	padding-left:60px;
+}
+div.main_progress h1
+{
+	padding: 5px;
+	padding-bottom:10px; 
+	padding-top:10px;
+}
+div.main_progress p
+{
+	font-size: 20px;
+	margin-top: 10px;
+}
+div.progress
+{
+	height: 5px;
+}
+div.images
+{
+	padding-left: 60px;
+}
+img#skill_first_image
+{
+	width: 226px;
+	height:320px;
+	z-index: 1;
+	border: 6px solid white;
+}
+img#skill_second_image
+{
+	width: 145px;
+	height:250px;
+	float:right;
+	margin-top: -20px;
+}
+div#skills_colum
+{
+	background-color:#fcd436;
+	height:500px;
+	width:85%;
+	float:right;
+	margin-top:-250px;
+	z-index: -1;"
+}
+div.services-card
+{
+	height: 370px;
+	border:none;
+}
+}
+/*This extra large media query*/
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+	div.text_main_div
+{
+	position: relative;
+	top:20vw;
+	left:5vw;
+}
+	div.text_main_div h1
+{
+	font-size: 35px;
+	color:white;
+	font-weight: bold;
+}
+a.cv_button
+{
+	width:150px;
+	height:40px;
+	color:white;
+	font-size: 15px;
+	padding:10px;
+	padding-left: 30px;
+	text-decoration: none;
+	border-radius: 50px;
+	border:none;
+}
+img#my_image_main
+{
+	float: right;
+	position: relative;
+	top:-130px;
+	right:30px;
+	height:404px; 
+	width:300px;
+}
+ul li.margin
+{
+	margin-left: 20px;
+}
+
+div.main_div
+{
+	width: 100%;
+	height:380px;
+}
+h2#typing_animation {
+  margin: 0.4em 0;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+}
+div#skills_colum
+{
+	background-color:#fcd436;
+	height:400px;
+	width:85%;
+	float:right;
+	margin-top:-160px;
+	z-index: -1;"
+}
+div.main_progress
+{
+	position: relative;
+	left:10%;
+	align-content: center;
+	width: 80%;
+	padding: 20px;
+	padding-left:60px;
+}
+div.main_progress h1
+{
+	padding: 1px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-size: 30px;
+}
+div.progress
+{
+	height: 5px;
+}
+div.main_progress p
+{
+	font-size: 15px;
+	line-height: 12px;
+	margin-top:7px;
+}
+div.images
+{
+	padding-left: 15px;
+}
+img#skill_first_image
+{
+	width: 160px;
+	height:240px;
+	z-index: 1;
+	border: 8px solid white;
+}
+img#skill_second_image
+{
+	width: 90px;
+	height:170px;
+	float:right;
+	margin-top: -15px;
+}
+div.services-card
+{
+	height: 430px;
+	border:none;
+}
+div.services-card h4
+{
+	font-size: 20px;
+}
+img.port_big_image
+{
+	 width:384px;
+	 height: 190px;
+}
+div.portfolio_card img
+{
+	 width:244px;
+	 height: 118px;
+}
+}
+/*This extra large media query*/
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+div.text_main_div
+{
+	z-index: 1;
+	position: relative;
+	top:22vw;
+	left:3vw;
+}
+div.text_main_div h1
+{
+	font-size: 30px;
+	color:white;
+	font-weight: bold;
+}
+a.cv_button
+{
+	width:120px;
+	height:35px;
+	color:white;
+	font-size: 14px;
+	padding:7px;
+	padding-left: 20px;
+	text-decoration: none;
+	border-radius: 50px;
+	border:none;
+}
+img#my_image_main
+{
+	z-index: 0;
+	float: right;
+	position: relative;
+	top:-105px;
+	right:15px;
+	height:371px; 
+	width:265px;
+}
+ul li.margin
+{
+	margin-left: 20px;
+}
+div.main_div
+{
+	width: 100%;
+	height:350px;
+}
+h2#typing_animation {
+  margin: 0.4em 0;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+div.main_round_div
+{
+	margin-top: 1vw;
+}
+div#skills_colum
+{
+	background-color:#fcd436;
+	height:300px;
+	width:85%;
+	float:right;
+	margin-top:-160px;
+	z-index: -1;"
+}
+div.main_progress
+{
+	position: relative;
+	left:10%;
+	align-content: center;
+	width: 80%;
+	padding: 20px;
+	padding-left:60px;
+}
+div.main_progress h1
+{
+	padding: 1px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-size: 30px;
+}
+div.progress
+{
+	height: 5px;
+}
+div.main_progress p
+{
+	font-size: 15px;
+	line-height: 12px;
+	margin-top:7px;
+}
+div.images
+{
+	padding-left: 15px;
+}
+img#skill_first_image
+{
+	width: 160px;
+	height:240px;
+	z-index: 1;
+	border: 8px solid white;
+}
+img#skill_second_image
+{
+	width: 90px;
+	height:170px;
+	float:right;
+	margin-top: -15px;
+}
+div#serv
+{
+	margin-bottom: 20px;
+}
+}
+/*This extra large media query*/
+@media(min-width: 478px) and (max-width: 575.98px)
+{
+div.text_main_div
+{
+	z-index: 1;
+	position: relative;
+	top:20vw;
+	left:3vw;
+}
+	div.text_main_div h1
+{
+	font-size: 25px;
+	color:white;
+	font-weight: bold;
+}
+a.cv_button
+{
+	width:100px;
+	height:25px;
+	color:white;
+	font-size: 12px;
+	padding:3px;
+	padding-left: 14px;
+	text-decoration: none;
+	border-radius: 50px;
+	border:none;
+}
+img#my_image_main
+{
+	float: right;
+	position: relative;
+	top:-90px;
+	right:0px;
+	height:300px; 
+	width:235px;
+}
+ul li.margin
+{
+	margin-left: 20px;
+}
+
+div.main_div
+{
+	width: 100%;
+	height:280px;
+}
+a#navi_brand
+{
+	font-size: 25px; 
+	font-weight: bold;
+}
+span#ahsan_dot
+{
+	color:red; 
+	font-weight:bold; 
+	font-size:25px;
+}
+h2#typing_animation {
+  margin: 0.4em 0;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+div.about
+{
+	padding: 30px;
+	padding-top:0px;
+	margin-top: -10vw;
+	width: 100%;
+}
+div.about h1
+{
+	font-size: 25px;
+}
+div.main_round_div
+{
+	margin-top:0px;
+	padding: 0px;
+	width: 100%;
+	padding-top: 20px;
+	box-sizing: border-box;
+
+}
+div.round
+{
+	height: 120px;
+	width: 120px;
+	border:2px solid yellow;
+	border-radius: 50%;
+}
+div.round p
+{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 120px;
+	text-align: center;
+}
+div.round_last
+{
+	margin-top: -75px;
+}
+span#yearsof_experience
+{
+	position: relative;
+	top:-100px;
+	font-size: 10px;
+	font-weight: normal;
+}
+div#skills_colum
+{
+	background-color:#fcd436;
+	height:270px;
+	width:85%;
+	float:right;
+	margin-top:-150px;
+	z-index: -1;"
+}
+div.main_progress
+{
+	position: relative;
+	left:5%;
+	align-content: center;
+	width: 80%;
+	padding: 10px;
+	padding-left:60px;
+}
+div.main_progress h1
+{
+	padding: 1px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 25px;
+}
+div.progress
+{
+	height: 4px;
+}
+div.main_progress p
+{
+	font-size: 12px;
+	line-height: 10px;
+	margin-top:5px;
+}
+div.images
+{
+	padding-left: 10px;
+}
+img#skill_first_image
+{
+	width: 140px;
+	height:210px;
+	z-index: 1;
+	border: 6px solid white;
+}
+img#skill_second_image
+{
+	width: 70px;
+	height:170px;
+	float:right;
+	margin-top: -15px;
+}
+div.last_icons a i
+{
+	color:white;
+	font-size: 20px;
+	padding-right: 30px;
+	padding-right: 30px;
+}
+div.services-card p
+{
+	font-size: 12px;
+}
+}
+/*This small mobile media query*/
+@media(min-width: 375px) and (max-width: 477.98px)
+{
+div.text_main_div
+{
+	z-index: 1;
+
+	position: relative;
+	top:20vw;
+	left:1vw;
+}
+	div.text_main_div h1
+{
+	font-size: 18px;
+	color:white;
+	font-weight: bold;
+}
+a.cv_button
+{
+	width:90px;
+	height:22px;
+	color:white;
+	font-size: 10px;
+	padding:3px;
+	padding-left: 15px;
+	text-decoration: none;
+	border-radius: 50px;
+	border:none;
+}
+img#my_image_main
+{
+	height: auto;
+	float: right;
+	position: relative;
+	top:-90px;
+	right:-10px;
+	height:250px; 
+	width:165px;
+}
+ul li.margin
+{
+	margin-left: 20px;
+}
+div.main_div
+{
+	width: 100%;
+	height:218px;
+}
+a#navi_brand
+{
+	font-size: 25px; 
+	font-weight: bold;
+}
+span#ahsan_dot
+{
+	color:red; 
+	font-weight:bold; 
+	font-size:25px;
+}
+h2#typing_animation {
+  margin: 0.4em 0;
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+}
+div.about
+{
+	padding: 30px;
+	padding-top:0px;
+	margin-top: -10vw;
+	width: 100%;
+}
+div.about h1
+{
+	font-size: 25px;
+}
+div.main_round_div
+{
+	margin-top:0px;
+	padding: 0px;
+	width: 100%;
+	padding-top: 20px;
+	box-sizing: border-box;
+
+}
+div.round
+{
+	height: 120px;
+	width: 120px;
+	border:2px solid yellow;
+	border-radius: 50%;
+}
+div.round p
+{
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 100px;
+	text-align: center;
+}
+div.round_last
+{
+	margin-top: -45px;
+}
+span#yearsof_experience
+{
+	position: relative;
+	top:-75px;
+	font-size: 10px;
+	font-weight: normal;
+}
+div#skills_colum
+{
+	background-color:#fcd436;
+	height:250px;
+	width:85%;
+	float:right;
+	margin-top:-140px;
+	z-index: -1;"
+}
+div.main_progress
+{
+	position: relative;
+	left:5%;
+	align-content: center;
+	width: 80%;
+	padding: 10px;
+	padding-left:60px;
+}
+div.main_progress h1
+{
+	padding: 1px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+div.progress
+{
+	height: 4px;
+}
+div.main_progress p
+{
+	font-size: 12px;
+	line-height: 10px;
+	margin-top:5px;
+}
+div.images
+{
+	padding-left: 10px;
+}
+img#skill_first_image
+{
+	width: 120px;
+	height:180px;
+	z-index: 1;
+	border: 5px solid white;
+}
+img#skill_second_image
+{
+	width: 60px;
+	height:150px;
+	float:right;
+	margin-top: -15px;
+}
+img.port_big_image
+{
+	height:178px;
+	width: 364px;
+}
+div.last_icons a i
+{
+	color:white;
+	font-size: 20px;
+	padding-right: 30px;
+	padding-right: 30px;
+}
+div.inner_client p
+{
+	font-size: 14px;
+}
+div.services-card p
+{
+	font-size: 12px;
+}
+}
+/*Media qury for extra small mobile devices*/
+@media(max-width: 374.55px)
+{
+	div.text_main_div
+{
+	z-index: 1;
+
+	position: relative;
+	top:20vw;
+	left:1vw;
+}
+	div.text_main_div h1
+{
+	font-size: 18px;
+	color:white;
+	font-weight: bold;
+}
+a.cv_button
+{
+	width:90px;
+	height:22px;
+	color:white;
+	font-size: 10px;
+	padding:3px;
+	padding-left: 15px;
+	text-decoration: none;
+	border-radius: 50px;
+	border:none;
+}
+img#my_image_main
+{
+	height: auto;
+	float: right;
+	position: relative;
+	top:-90px;
+	right:-10px;
+	height:250px; 
+	width:165px;
+}
+ul li.margin
+{
+	margin-left: 20px;
+}
+div.main_div
+{
+	width: 100%;
+	height:218px;
+}
+a#navi_brand
+{
+	font-size: 25px; 
+	font-weight: bold;
+}
+span#ahsan_dot
+{
+	color:red; 
+	font-weight:bold; 
+	font-size:25px;
+}
+h2#typing_animation {
+  margin: 0.4em 0;
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+}
+div.about
+{
+	padding: 30px;
+	padding-top:0px;
+	margin-top: -10vw;
+	width: 100%;
+}
+div.about h1
+{
+	font-size: 25px;
+}
+div.main_round_div
+{
+	margin-top:0px;
+	padding: 0px;
+	width: 100%;
+	padding-top: 20px;
+	box-sizing: border-box;
+
+}
+div.round
+{
+	height: 120px;
+	width: 120px;
+	border:2px solid yellow;
+	border-radius: 50%;
+}
+div.round p
+{
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 100px;
+	text-align: center;
+}
+div.round_last
+{
+	margin-top: -45px;
+}
+span#yearsof_experience
+{
+	position: relative;
+	top:-75px;
+	font-size: 10px;
+	font-weight: normal;
+}
+div#skills_colum
+{
+	background-color:#fcd436;
+	height:250px;
+	width:85%;
+	float:right;
+	margin-top:-140px;
+	z-index: -1;"
+}
+div.main_progress
+{
+	position: relative;
+	left:5%;
+	align-content: center;
+	width: 80%;
+	padding: 10px;
+	padding-left:60px;
+}
+div.main_progress h1
+{
+	padding: 1px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+div.progress
+{
+	height: 4px;
+}
+div.main_progress p
+{
+	font-size: 12px;
+	line-height: 10px;
+	margin-top:5px;
+}
+div.images
+{
+	padding-left: 10px;
+}
+img#skill_first_image
+{
+	width: 120px;
+	height:180px;
+	z-index: 1;
+	border: 5px solid white;
+}
+img#skill_second_image
+{
+	width: 60px;
+	height:150px;
+	float:right;
+	margin-top: -15px;
+}
+img.port_big_image
+{
+	height:148px;
+	width: 304px;
+}
+div.portfolio_card img
+{
+	 width:244px;
+	 height: 118px;
+}	
+div.last_icons a i
+{
+	color:white;
+	font-size: 18px;
+	padding-right: 25px;
+	padding-right: 25px;
+}
+div.inner_client p
+{
+	font-size: 12px;
+}
+div.services-card p
+{
+	font-size: 12px;
+}
+}
